@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   publish:
-    uses: ego-lay-atman-bay/python-publish-workflow/.github/workflows/python-publish-workflow.yml@main
+    uses: ego-lay-atman-bay/python-publish-workflow/.github/workflows/python-publish.yml@main
     with:
         python_version: '3.14'
 ```
